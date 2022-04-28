@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genki Ohara</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Genki Ohara</a>
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="img/profile.jpg" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span class="color">Genki</span></h2>
+                <p>
+                    Front End Developer
+                </p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-meta'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <h2 class="heading">About</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Front End Developer, <br> Graphic Designer & Sound Mixer</h2>
+                <a href="#" class="btn" download="">
+                    Download CV
+                    <i class="bx bx-download"></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello! I am Genki Ohara, a Vancouver based Web Developer, grew up in the Japanese art community,</p>
+                <p>primarily in the music.</p>
+                <p>I have a strong expertise in creating artist portfolios.</p>
+                <p>Get your project book with contact button.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <a href="#">
+                    <img src="img/blog.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>Blog</h2>
+                        <h5>HTML, CSS, Javascript</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-box">
+                <a href="#">
+                    <img src="img/instagram.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>Instagram Montage</h2>
+                        <h5>HTML, CSS, Javascript</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-box">
+                <a href="#">
+                    <img src="img/ticket.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>Ticket Booking Page</h2>
+                        <h5>HTML, CSS, Javascript</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-box">
+                <a href="#">
+                    <img src="img/phil.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>Art Portfolio Design</h2>
+                        <h5>Wix</h5>
+                    </div>
+                </a>
+            </div>
+    </section>
+
+    <section class="contact container" id="contact">
+        <h2 class="heading">Contact</h2>
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email address..." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message"
+                required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="mailto:oharagenki@gmail.com"><i class='bx bx-envelope'></i></a>
+            <a href="#"><i class='bx bxl-meta'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+        <p>&#169; Genki Ohara</p>
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("WQ5wuJt86_TnDO6hs");
+        })();
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
